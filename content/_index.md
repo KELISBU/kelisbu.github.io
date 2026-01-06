@@ -18,7 +18,7 @@ My research focuses on **diffusion-based video generation** and **safety-critica
   </div>
 
   <div class="hero-right">
-    <img class="portrait" src="/img/me.jpg" alt="portrait">
+    <img class="portrait" src="{{ "img/me.jpg" | relURL }}" alt="portrait">
   </div>
 </div>
 
