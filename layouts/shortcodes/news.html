@@ -1,0 +1,12 @@
+<div class="news">
+  {{ range site.Data.news }}
+    <div class="news-row">
+      <div class="news-date">{{ .date }}</div>
+      <div class="news-items">
+        {{ range .items }}
+          <div class="news-item">{{ . | safeHTML }}</div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+</div>

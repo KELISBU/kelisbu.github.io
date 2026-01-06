@@ -1,0 +1,23 @@
+baseURL = "https://kelisbu.github.io/"
+languageCode = "en-us"
+title = "Ke Li"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+
+[menu]
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "CV"
+    url = "/cv.pdf"
+    weight = 2
+
