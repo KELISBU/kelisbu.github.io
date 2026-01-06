@@ -27,5 +27,4 @@ a:hover{ text-decoration:underline; }
   .news-row{ flex-direction:column; gap:.5rem; }
   .news-date{ width:auto; }
 }
-.hero-right { outline: 3px solid red; }
-.portrait { outline: 3px solid blue; }
+
