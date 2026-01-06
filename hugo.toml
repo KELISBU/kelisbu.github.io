@@ -9,7 +9,7 @@ theme = "PaperMod"
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = false
-
+  customCSS = ["css/custom.css"]
 [menu]
   [[menu.main]]
     name = "about"
