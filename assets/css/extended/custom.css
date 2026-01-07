@@ -30,4 +30,13 @@ a:hover{ text-decoration:underline; }
   .news-row{ flex-direction:column; gap:.5rem; }
   .news-date{ width:auto; }
 }
+.advisor-link{
+  text-decoration: none;
+  color: inherit;      /* 跟正文同色 */
+}
+
+.advisor-link:hover{
+  text-decoration: none;
+  opacity: 0.75;       /* 轻微变化提示可点击 */
+}
 
