@@ -1,9 +1,12 @@
 .hero{ display:flex; gap:2.5rem; align-items:flex-start; margin-top:1rem; }
 .hero-left{ flex:1 1 auto; min-width:280px; }
-.hero-right{ flex:0 0 320px; }
-
+.hero-right{ flex:0 0 300px; }
+.hero-right{
+  flex: 0 0 auto;
+  margin-left: auto;      
+}
 .portrait{
-  width:320px; max-width:100%;
+  width:260px; max-width:100%;
   border-radius:10px;
   box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
