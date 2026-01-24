@@ -23,6 +23,18 @@ a:hover{ text-decoration:underline; }
 .news-date{ width:140px; font-weight:700; white-space:nowrap; }
 .news-items{ flex:1 1 auto; }
 .news-item{ margin:.2rem 0; }
+.news-item, .news-row {
+  display: grid;
+  grid-template-columns: 140px 1fr; /* date width */
+  column-gap: 28px;
+  align-items: start;
+}
+
+/* optional: keep date visually aligned */
+.news-date {
+  font-weight: 700;
+  white-space: nowrap;
+}
 
 @media (max-width:900px){
   .hero{ flex-direction:column; }
