@@ -1,6 +1,6 @@
 - title: "CrashChat: A Multimodal Large Language Model for Multitask Traffic Crash Video Analysis"
   subtitle: "Kaidi Liang, <u>Ke Li</u>, Xianbiao Hu, and Ruwen Qin"
-  image: "/img/projects/crashchat.png"
+  image: "/img/crashchat.png"
   year: "ArXiv2026"
   links:
     - name: "PAGE"
@@ -12,7 +12,7 @@
 
 - title: "HMPDM: A Diffusion Model for Driving Video Prediction with Historical Motion Priors"
   subtitle: "<u>Ke Li</u>, Tianjia Yang, Kaidi Liang, Xianbiao Hu, Ruwen Qin"
-  image: "/img/projects/hmpdm.png"
+  image: "/img/hmpdm.png"
   year: "IEEE IVS2026"
   links:
     - name: "PAGE"
@@ -23,7 +23,7 @@
       url: "/files/HMPDM.pdf"
 - title: "Multi-label Scene Classification for Autonomous Vehicles: Acquiring and Accumulating Knowledge from Diverse Datasets"
   subtitle: "<u>Ke Li</u>, Chenyu Zhang, Yuxin Ding, Xianbiao Hu, Ruwen Qin"
-  image: "/img/projects/KAA-CAL.png"
+  image: "/img/KAA-CAL.png"
   year: "ArXiv2025"
   links:
     - name: "PAGE"
