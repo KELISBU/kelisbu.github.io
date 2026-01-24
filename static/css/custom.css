@@ -1,9 +1,12 @@
 .hero{ display:flex; gap:2.5rem; align-items:flex-start; margin-top:1rem; }
 .hero-left{ flex:1 1 auto; min-width:280px; }
-.hero-right{ flex:0 0 320px; }
-
+.hero-right{ flex:0 0 300px; }
+.hero-right{
+  flex: 0 0 auto;
+  margin-left: auto;      
+}
 .portrait{
-  width:320px; max-width:100%;
+  width:260px; max-width:100%;
   border-radius:10px;
   box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
@@ -26,4 +29,32 @@ a:hover{ text-decoration:underline; }
   .hero-right{ flex-basis:auto; }
   .news-row{ flex-direction:column; gap:.5rem; }
   .news-date{ width:auto; }
+}
+.advisor-link{
+  text-decoration: none;
+  color: inherit;    
+}
+
+.advisor-link:hover{
+  text-decoration: none;
+  opacity: 0.75;      
+}
+.icon-links{
+  margin-top: 12px;
+  display: flex;
+  gap: 14px;
+  justify-content: center; /* 想靠左就改成 flex-start */
+  align-items: center;
+}
+
+.icon-btn{
+  text-decoration: none;
+  font-size: 26px; 
+  color: #111;      
+  transition: color .15s ease, transform .15s ease;
+}
+
+.icon-btn:hover{
+  color: #d38bd8;   
+  transform: translateY(-1px);
 }
