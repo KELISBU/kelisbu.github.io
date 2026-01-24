@@ -1,7 +1,11 @@
-- date: "Jan 6, 2026"
+- date: "Jan 16, 2026"
   items:
     - "Launched my personal website."
 
-- date: "Dec 25, 2025"
+- date: "Jan 10, 2026"
   items:
-    - "Started a new project on safety-critical rural driving scenario generation."
+    - "Excited to share that our paper has been accepted to the IEEE Intelligent Vehicles Symposium (IV) 2026."
+
+- date: "Sep 17, 2025"
+  items:
+    - "Our work on the KAA-CAL model is now available on arXiv."
