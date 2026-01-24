@@ -12,7 +12,7 @@ theme = "PaperMod"
   customCSS = ["css/custom.css"]
 
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "Ke Li"
     subtitle = "Ph.D. student at Stony Brook University"
     imageUrl = "/img/me.jpg"
