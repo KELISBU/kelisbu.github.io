@@ -42,22 +42,19 @@ a:hover{ text-decoration:underline; }
 .icon-links{
   margin-top: 12px;
   display: flex;
-  gap: 12px;
-  justify-content: center; /* 想靠左改成 flex-start */
+  gap: 14px;
+  justify-content: center; /* 想靠左就改成 flex-start */
+  align-items: center;
 }
 
 .icon-btn{
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 999px;
-  border: 1px solid rgba(0,0,0,0.15);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 26px; 
+  color: #111;      
+  transition: color .15s ease, transform .15s ease;
 }
 
 .icon-btn:hover{
+  color: #d38bd8;   
   transform: translateY(-1px);
 }
