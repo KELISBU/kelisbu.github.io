@@ -10,18 +10,6 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowPostNavLinks = false
   customCSS = ["css/custom.css"]
-[menu]
-  [[menu.main]]
-    name = "about"
-    url = "/about/"
-    weight = 1
-
-  [[menu.main]]
-    name = "CV"
-    url = "/cv.pdf"
-    weight = 2
-
-[params]
 
   [params.profileMode]
     enabled = true
@@ -44,3 +32,14 @@ theme = "PaperMod"
   [[params.socialIcons]]
     name = "cv"
     url = "/cv.pdf"
+
+[menu]
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "CV"
+    url = "/cv.pdf"
+    weight = 2
