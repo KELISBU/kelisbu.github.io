@@ -1,0 +1,21 @@
+- title: "Rural Safety-Critical Scenario Generation"
+  subtitle: "Diffusion-based sim-to-real pipeline for controllable rural hazards."
+  image: "/img/projects/rural-sim2real.png"
+  year: "2026"
+  links:
+    - name: "PAGE"
+      url: "/projects/rural-sim2real/"
+    - name: "CODE"
+      url: "https://github.com/KELISBU/your-repo"
+    - name: "PDF"
+      url: "/files/rural-sim2real.pdf"
+
+- title: "HMPDM: Historical Motion Priors-informed Diffusion Model"
+  subtitle: "Diffusion-based driving video prediction with historical motion context."
+  image: "/img/projects/hmpdm.png"
+  year: "2026"
+  links:
+    - name: "ARXIV"
+      url: "https://arxiv.org/abs/xxxx.xxxxx"
+    - name: "CODE"
+      url: "https://github.com/KELISBU/hmpdm"
