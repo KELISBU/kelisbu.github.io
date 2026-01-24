@@ -125,3 +125,61 @@ a:hover{ text-decoration:underline; }
     row-gap: .5rem;
   }
 }
+
+.pub-list{ margin-top: 8px; }
+
+.pub-item{
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 18px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.pub-thumb img{
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.pub-title{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.pub-authors{
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.pub-venue{
+  margin-top: 4px;
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+.pub-links{
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pub-btn{
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 6px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.pub-btn:hover{
+  border-color: #d38bd8;
+  color: #d38bd8;
+}
+
