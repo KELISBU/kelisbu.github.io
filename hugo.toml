@@ -23,28 +23,24 @@ theme = "PaperMod"
 
 [params]
 
-  profileMode = true
+  [params.profileMode]
+    enabled = true
+    title = "Ke Li"
+    subtitle = "Ph.D. student at Stony Brook University"
+    imageUrl = "/img/me.jpg"
 
-[[params.socialIcons]]
-  name = "email"
-  url = "mailto:keli.1@stonybrook.edu"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:keli.1@stonybrook.edu"
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/YOUR_GITHUB"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/KELISBU"
 
-[[params.socialIcons]]
-  name = "googlescholar"
-  url = "https://scholar.google.com/citations?user=YOUR_ID"
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=jJURvasAAAAJ&hl=en"
 
-[[params.socialIcons]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/YOUR_LINKEDIN/"
-
-[[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/YOUR_HANDLE"
-
-[[params.socialIcons]]
-  name = "cv"
-  url = "/cv/"
+  [[params.socialIcons]]
+    name = "cv"
+    url = "/cv.pdf"
