@@ -1,72 +1,127 @@
-.hero{ display:flex; gap:2.5rem; align-items:flex-start; margin-top:1rem; }
-.hero-left{ flex:1 1 auto; min-width:280px; }
-.hero-right{ flex:0 0 300px; }
-.hero-right{
-  flex: 0 0 auto;
-  margin-left: auto;      
+/* -----------------------------
+   HERO LAYOUT
+------------------------------ */
+.hero{
+  display:flex;
+  gap:2.5rem;
+  align-items:flex-start;
+  margin-top:1rem;
 }
+
+.hero-left{
+  flex:1 1 auto;
+  min-width:280px;
+}
+
+.hero-right{
+  flex:0 0 300px;
+  margin-left:auto;
+}
+
 .portrait{
-  width:260px; max-width:100%;
+  width:260px;
+  max-width:100%;
   border-radius:10px;
   box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
+
 .name-strong{ font-weight:800; }
 .email{ margin:.25rem 0 1rem; opacity:.75; }
 
+/* -----------------------------
+   LINKS (theme color)
+------------------------------ */
 :root{ --link:#cc33cc; }
 .dark{ --link:#ff66ff; }
+
 a{ color:var(--link); }
 a:hover{ text-decoration:underline; }
 
-.news{ margin-top:1rem; }
-.news-row{ display:flex; gap:2rem; padding:.8rem 0; border-bottom:1px solid rgba(0,0,0,.12); }
-.news-date{ width:140px; font-weight:700; white-space:nowrap; }
-.news-items{ flex:1 1 auto; }
-.news-item{ margin:.2rem 0; }
-.news-item, .news-row {
-  display: grid;
-  grid-template-columns: 140px 1fr; /* date width */
-  column-gap: 28px;
-  align-items: start;
-}
-
-/* optional: keep date visually aligned */
-.news-date {
-  font-weight: 700;
-  white-space: nowrap;
-}
-
-@media (max-width:900px){
-  .hero{ flex-direction:column; }
-  .hero-right{ flex-basis:auto; }
-  .news-row{ flex-direction:column; gap:.5rem; }
-  .news-date{ width:auto; }
-}
+/* advisor link looks like normal text */
 .advisor-link{
   text-decoration: none;
-  color: inherit;    
+  color: inherit;
 }
-
 .advisor-link:hover{
   text-decoration: none;
-  opacity: 0.75;      
+  opacity: 0.75;
 }
+
+/* -----------------------------
+   ICON BUTTONS under portrait
+------------------------------ */
 .icon-links{
   margin-top: 12px;
   display: flex;
   gap: 14px;
-  justify-content: center; /* 想靠左就改成 flex-start */
+  justify-content: center; /* change to flex-start if you want left */
   align-items: center;
 }
 
 .icon-btn{
   text-decoration: none;
-  font-size: 26px; 
-  color: #111;      
+  font-size: 26px;
+  color: #111;
   transition: color .15s ease, transform .15s ease;
 }
 
 .icon-btn:hover{
-  color: #d38bd8;   
+  color: #d38bd8;
   transform: translateY(-1px);
+}
+
+/* -----------------------------
+   NEWS (fixed alignment)
+   Structure:
+   .news
+     .news-row (date | items)
+       .news-date
+       .news-items
+         .news-item
+------------------------------ */
+.news{ margin-top:1rem; }
+
+.news-row{
+  display: grid;
+  grid-template-columns: 140px 1fr; /* date column | content column */
+  column-gap: 28px;
+  align-items: start;
+  padding: .8rem 0;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+.news-date{
+  font-weight:700;
+  white-space:nowrap;
+}
+
+.news-items{
+  min-width: 0;            /* critical: allow proper wrapping */
+}
+
+.news-item{
+  margin: .2rem 0;
+  line-height: 1.6;
+  word-break: normal;
+  overflow-wrap: normal;   /* use 'anywhere' if you have long URLs */
+}
+
+.news-item + .news-item{
+  margin-top: 6px;
+}
+
+/* -----------------------------
+   RESPONSIVE
+------------------------------ */
+@media (max-width:900px){
+  .hero{ flex-direction:column; }
+  .hero-right{
+    flex-basis:auto;
+    margin-left: 0;
+  }
+
+  .news-row{
+    grid-template-columns: 1fr;
+    row-gap: .5rem;
+  }
 }
