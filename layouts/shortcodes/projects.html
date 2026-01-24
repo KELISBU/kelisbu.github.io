@@ -10,7 +10,7 @@
 
       <div class="pub-meta">
         <div class="pub-title">{{ .title }}</div>
-        {{- if .subtitle }}<div class="pub-authors">{{ .subtitle }}</div>{{ end }}
+        {{- if .subtitle }}<div class="pub-authors">{{ .subtitle | safeHTML }}</div>{{ end }}
         {{- if .year }}<div class="pub-venue">{{ .year }}</div>{{ end }}
 
         {{- if .links }}
