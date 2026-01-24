@@ -1,0 +1,26 @@
+{{- $items := site.Data.projects -}}
+<div class="pub-list">
+  {{- range $items }}
+    <div class="pub-item">
+      <div class="pub-thumb">
+        {{- if .image }}
+          <img src="{{ .image }}" alt="thumbnail">
+        {{- end }}
+      </div>
+
+      <div class="pub-meta">
+        <div class="pub-title">{{ .title }}</div>
+        {{- if .subtitle }}<div class="pub-authors">{{ .subtitle }}</div>{{ end }}
+        {{- if .year }}<div class="pub-venue">{{ .year }}</div>{{ end }}
+
+        {{- if .links }}
+        <div class="pub-links">
+          {{- range .links }}
+            <a class="pub-btn" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+          {{- end }}
+        </div>
+        {{- end }}
+      </div>
+    </div>
+  {{- end }}
+</div>
