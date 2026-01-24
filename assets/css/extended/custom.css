@@ -32,11 +32,32 @@ a:hover{ text-decoration:underline; }
 }
 .advisor-link{
   text-decoration: none;
-  color: inherit;      /* 跟正文同色 */
+  color: inherit;    
 }
 
 .advisor-link:hover{
   text-decoration: none;
-  opacity: 0.75;       /* 轻微变化提示可点击 */
+  opacity: 0.75;      
+}
+.icon-links{
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+  justify-content: center; /* 想靠左改成 flex-start */
 }
 
+.icon-btn{
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.15);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.icon-btn:hover{
+  transform: translateY(-1px);
+}
