@@ -21,3 +21,30 @@ theme = "PaperMod"
     url = "/cv.pdf"
     weight = 2
 
+[params]
+
+  profileMode = true
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:keli.1@stonybrook.edu"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/YOUR_GITHUB"
+
+[[params.socialIcons]]
+  name = "googlescholar"
+  url = "https://scholar.google.com/citations?user=YOUR_ID"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/YOUR_LINKEDIN/"
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/YOUR_HANDLE"
+
+[[params.socialIcons]]
+  name = "cv"
+  url = "/cv/"
