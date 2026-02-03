@@ -8,7 +8,7 @@
     - name: "CODE"
       url: "https://github.com/Liangkd/CrashChat"
     - name: "PDF"
-      url: "/files/crahchat.pdf"
+      url: "/file/crahchat.pdf"
 
 - title: "HMPDM: A Diffusion Model for Driving Video Prediction with Historical Motion Priors"
   subtitle: "<b><u>Ke Li</u></b>, Tianjia Yang, Kaidi Liang, Xianbiao Hu, Ruwen Qin"
@@ -20,7 +20,7 @@
     - name: "CODE"
       url: "https://github.com/KELISBU/HMPDM"
     - name: "PDF"
-      url: "/files/HMPDM.pdf"
+      url: "/file/HMPDM.pdf"
 - title: "Multi-label Scene Classification for Autonomous Vehicles: Acquiring and Accumulating Knowledge from Diverse Datasets"
   subtitle: "<b><u>Ke Li</u></b>, Chenyu Zhang, Yuxin Ding, Xianbiao Hu, Ruwen Qin"
   image: "/img/KAA-CAL.png"
@@ -31,4 +31,4 @@
     - name: "CODE"
       url: "https://github.com/KELISBU/KAA-CAL"
     - name: "PDF"
-      url: "/files/KAA-CAL.pdf"
+      url: "/file/KAA-CAL.pdf"
