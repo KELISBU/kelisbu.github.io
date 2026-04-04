@@ -2,8 +2,10 @@ baseURL = "https://kelisbu.github.io/"
 languageCode = "en-us"
 title = "Ke Li"
 theme = "PaperMod"
+author = "Ke Li"
 
 [params]
+  author = "Ke Li"
   defaultTheme = "auto"
   disableThemeToggle = false
   ShowReadingTime = false
@@ -19,7 +21,7 @@ theme = "PaperMod"
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:keli.1@stonybrook.edu"
+    url = "mailto:ke.li.1@stonybrook.edu"
 
   [[params.socialIcons]]
     name = "github"
@@ -43,3 +45,4 @@ theme = "PaperMod"
     name = "CV"
     url = "/cv.pdf"
     weight = 2
+
