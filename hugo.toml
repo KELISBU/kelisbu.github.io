@@ -46,4 +46,4 @@ author = "Ke Li"
     url = "/cv.pdf"
     weight = 2
 [security]
-  allowContent = ['^text/html$']
+  allowContent = ['^text/html$', '^text/markdown$']
