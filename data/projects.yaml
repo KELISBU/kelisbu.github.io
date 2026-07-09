@@ -1,3 +1,15 @@
+- title: "CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation"
+  subtitle: "<b><u>Ke Li</u></b>,Kaidi Liang, Yuxin Ding, Debojyoti Biswas, Xianbiao Hu, and Ruwen Qin"
+  image: "/img/CCFM.png"
+  year: "ECCV2026"
+  links:
+    - name: "PAGE"
+      url: "https://arxiv.org/abs/2607.04451"
+    - name: "CODE"
+      url: "https://github.com/KELISBU/CCFM"
+    - name: "PDF"
+      url: "/file/CCFM.pdf"
+
 - title: "CrashChat: A Multimodal Large Language Model for Multitask Traffic Crash Video Analysis"
   subtitle: "Kaidi Liang, <b><u>Ke Li</u></b>, Xianbiao Hu, and Ruwen Qin"
   image: "/img/crashchat.png"
